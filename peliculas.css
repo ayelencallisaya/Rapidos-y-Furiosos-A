@@ -41,3 +41,17 @@ font-size: 17px;
 a {
 color: rgb(237, 178, 178);
 }
+
+
+.contenido-pelicula {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 30px;
+}
+
+
+.contenido-pelicula img {
+position: relative;
+top: 0;
+}
