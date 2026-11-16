@@ -70,7 +70,7 @@ a:hover {
 color: white;
 }
 
-/* ORGANIZACIÓN DE LAS PELÍCULAS */
+
 section:nth-of-type(2) {
 display: grid;
 grid-template-columns: repeat(2, 1fr);
@@ -93,9 +93,16 @@ display: block;
 margin: 20px auto;
 }
 
-/* FLEX EN EL ENCABEZADO */
+
 header {
 display: flex;
 justify-content: center;
 align-items: center;
+}
+img {
+    transition: transform 0.3s;
+}
+
+img:hover {
+    transform: scale(1.05);
 }
